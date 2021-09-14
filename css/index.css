@@ -3,5 +3,43 @@
 }
 
 header {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(to bottom right, red, yellow);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    background-color: #C0C0C0;
+    width: 300px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul a {
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #F0F0F0;
+}
+
+nav ul a:hover {
+    color: #FFFFFF;
+    background-image: radial-gradient(#F0F0F0, #C0C0C0);
+}
+
+footer {
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(to top right, red, yellow);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
